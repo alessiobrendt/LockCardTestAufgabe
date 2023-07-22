@@ -88,7 +88,7 @@ export default {
       <div class="h-[40rem] flex flex-row algin-middle items-center pl-[20rem]">
         <div class="items-center justify-center algin-middle">
           <h1 class="py-8 text-4xl font-bold text-white">
-            DER BLOG MIT DEM<br />EXTA MUH!
+            DER BLOG MIT DEM<br />EXTRA MUH!
           </h1>
           <a href="#blog"
             ><button
