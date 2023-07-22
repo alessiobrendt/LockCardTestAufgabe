@@ -105,7 +105,11 @@ export default {
       <h1 class="text-5xl font-medium text-center">BLOGS</h1>
 
       <div class="justify-center text-center align-middle">
-        <Modal name="fa-solid fa-plus" color="text-blue-600">
+        <Modal
+          name="fa-solid fa-plus"
+          color="text-blue-600"
+          @isModalOpen="loadEdit('', '', '', '')"
+        >
           <p>Edit Blog</p>
           <br />
 
