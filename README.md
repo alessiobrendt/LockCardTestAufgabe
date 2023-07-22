@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+![Logo](https://lockcard.com/cdn/shop/files/Lockcard_Logo_Abstand_rechts_links_45eb2fc0-346a-4a0f-bc7d-3134b57f0b96_300x.png?v=1681831298)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Testaufgabe als Entwickler beim Lockcard Discord
 
-## Recommended IDE Setup
+Es soll eine Seite mit Vue, Angular oder React erstellt werden, auf der Blog-Posts mit einem Editor erstellt werden können. Die Blog-Posts sollen dann aufgelistet und angezeit werden können. https://www.npmjs.com/package/json-server soll genutzt werden, um eine REST-API für das Speichern, Abrufen, Editieren und Löschen der Blog-Posts darzustellen. Ein Blog Post soll einen Autor, einen Inhalt, einen Titel und ein Post-Datum haben.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm i
+  npm run dev || npm run build
+  json-server --watch data.json --port 3000
+```
